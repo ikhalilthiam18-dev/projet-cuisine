@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SunuCuisine</title>
+<style>
+body{margin:0;font-family:Arial,sans-serif;background:#fff8f0;color:#333}
+header{background:linear-gradient(90deg,#ff7b00,#ff3c00);color:white;padding:30px;text-align:center}
+header h1{margin:0;font-size:42px}
+.container{width:90%;max-width:1100px;margin:auto;padding:30px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.card{background:white;padding:20px;border-radius:18px;box-shadow:0 4px 12px rgba(0,0,0,.08)}
+.card h2{margin-top:0}
+button{background:#ff5a00;color:white;border:none;padding:10px 16px;border-radius:10px;cursor:pointer}
+form{background:white;padding:25px;border-radius:18px;box-shadow:0 4px 12px rgba(0,0,0,.08);margin-top:40px}
+input,textarea{width:100%;padding:12px;margin:10px 0;border:1px solid #ddd;border-radius:10px}
+footer{text-align:center;padding:20px;color:#777}
+</style>
+</head>
+<body>
+<header>
+<h1>🍳 SunuCuisine</h1>
+<p>Découvrez et partagez vos meilleures recettes</p>
+</header>
+<div class="container">
+<h2>Nos recettes populaires</h2>
+<div class="grid">
+<div class="card"><h2>Crêpes Maison</h2><p>Recette rapide et délicieuse.</p><button>Voir</button></div>
+<div class="card"><h2>Poulet Yassa</h2><p>Plat sénégalais savoureux.</p><button>Voir</button></div>
+<div class="card"><h2>Salade Fraîcheur</h2><p>Légère et saine.</p><button>Voir</button></div>
+</div>
+<form>
+<h2>Ajouter une recette</h2>
+<input type="text" placeholder="Nom de la recette">
+<input type="text" placeholder="Temps de préparation">
+<textarea rows="5" placeholder="Étapes de préparation"></textarea>
+<button type="submit">Publier</button>
+</form>
+</div>
+<footer>© 2026 SunuCuisine</footer>
+</body>
+</html>
